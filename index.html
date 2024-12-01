@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indiana Flowers</title>
+</head>
+<body>
+</body>
+
+<script>
+    let header = document.createElement("h1");
+    header.textContent = "Indiana Flowers!";
+    header.style.textAlign = "center";
+    header.style.fontSize = "45px";
+    document.body.append(header);
+
+    let toptxt = document.createElement("h2");
+    toptxt.textContent = "April showers bring May flowers! Indiana has lots of beautiful flowers in springtime. Here is some information about them:";
+    toptxt.style.textAlign = "center";
+    toptxt.style.fontSize = "16px";
+    document.body.append(toptxt);
+
+    let list = document.createElement("ul")
+
+    let flower1 = document.createElement("li")
+    flower1.textContent = "Peony: The peony is Indiana's State flower. It has many layers and is a shade of vibrant pink. It was made the state flower in the 1950's";
+    list.appendChild(flower1)
+
+    let flower2 = document.createElement("li")
+    flower2.textContent = "White Daisy: The white daisy is a common wildflower found in Indiana. It is known for its long white petals and yellow center. ";
+    list.appendChild(flower2)
+
+
+    let flower3 = document.createElement("li")
+    flower3.textContent = "Common Violet: Common violet flowers are small purple-violet flowers within patches of leaves. They are another common wildflower located in Indiana.";
+    list.appendChild(flower3)
+
+    document.body.append(list);
+
+</script>
+</html>
